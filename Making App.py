@@ -5,7 +5,7 @@ numb= 0
 while not exitt:
     is_where_inportan = input("do you care where it is in the list? (y/n)")
     if is_where_inportan == "y":
-         where= input(int("enter where in the list?(number)"))
+         where= int(input("enter where in the list?(number)"))
          thing_add_to_list = input("what is one of your favorite movie/shows?(say exit to exit)")
          if thing_add_to_list == "exit":
              exitt = True
